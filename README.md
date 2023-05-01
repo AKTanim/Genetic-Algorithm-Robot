@@ -10,6 +10,7 @@ This is a very simple differential robot. It follows the widely-used velocity mo
 * X: both motor speeds are zero
 * T: positive increment of both wheels’ motor speed
 * G: negative increment of both wheels’ motor speed
+
 Make the variable ```we_play = True in main.py``` to manually control the robot. When it is 'False', the robot goes into the learning phase by using Neural Network and Genetic Algorithm.
 
 The robot has 12 omni-directional IR sensors to detect the obstacles. Obstacle avoidance is triggered by setting a threshold on the sensor value. The following rules are followed to avoid obstacles:
